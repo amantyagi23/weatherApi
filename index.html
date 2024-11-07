@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="stylesheet/main.css" />
+    <script type="module" src="javascript/controller/index.js"></script>
+  </head>
+  <body>
+    <div class="weather">
+      <div class="search-bar">
+        <input type="text" placeholder="Search" id="input" />
+        <button id="getSearchData">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-search"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+        </button>
+      </div>
+      <img src="{weather_icon}" alt="" class="weather-icon" />
+      <p class="temperature" id="temperature">22°c</p>
+      <p class="location" id="location">New York</p>
+      <div class="weather-data">
+        <div class="col">
+          <img src="{humidity_icon}" alt="" />
+          <div>
+            <p>64 %</p>
+            <span>Humidity</span>
+          </div>
+        </div>
+        <div class="wind_icon">
+          <div class="col">
+            <img src="{wind_icon}" alt="" />
+            <div>
+              <p id="windSpeed">18 km/h</p>
+              <span>Wind Speed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+
+
+
+Weather App
+
+Design static part the page 
+
+MVC -> Model view Controller
+Arc ->  
+view ->  html & css
+
+dynamic -> js
+
+controller -> interact with page or print the information
+
+model -> Weather information is a Model
+
+service -> it is use to connect with APIs and fetch from servers
+
+SRP -> single responsibility prin
+
+
+
+Next project 
+
+TODO task
+
+create page
+in which there is form 
+with 5 value
+1. name
+last name
+phone
+dob
+address
+
+
+collect the data 
+
+store data in a arrry
+
+print data on screen 
+
+
+Make Like 
+
+open a github account 
+create a new repo
+
+upload code but not folder
+
+
+
